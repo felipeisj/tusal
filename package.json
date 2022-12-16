@@ -1,0 +1,28 @@
+{
+  "name": "tusal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "back/",
+    "front"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "co": "sui-mono commit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipeisj/tusal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipeisj/tusal/issues"
+  },
+  "homepage": "https://github.com/felipeisj/tusal#readme",
+  "dependencies": {
+    "@s-ui/mono": "^2.34.0"
+  }
+}
